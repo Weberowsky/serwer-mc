@@ -1,0 +1,4 @@
+06.11.2020 - 15:35:05 - [TAB v2.8.8] Group "administrator" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "administrator" into group-sorting-priority-list in config.yml.
+06.11.2020 - 15:35:13 - [TAB v2.8.8] Group "wlasciciel" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "wlasciciel" into group-sorting-priority-list in config.yml.
+07.11.2020 - 13:11:25 - [TAB v2.8.8] Group "technik" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "technik" into group-sorting-priority-list in config.yml.
+07.11.2020 - 13:11:59 - [TAB v2.8.8] Group "technik" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "technik" into group-sorting-priority-list in config.yml.

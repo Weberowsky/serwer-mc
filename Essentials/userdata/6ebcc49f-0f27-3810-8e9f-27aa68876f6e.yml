@@ -1,0 +1,47 @@
+lastAccountName: Marcolini1
+timestamps:
+  login: 1604773138414
+  logout: 1604773135624
+  lastteleport: 1604772394328
+  kits:
+    color: 1604671544880
+ipAddress: 31.41.181.61
+logoutlocation:
+  world: world
+  x: -402.3759799585626
+  y: 84.0
+  z: -566.4066596714499
+  yaw: -183.67094
+  pitch: 10.799741
+homes:
+  biom:
+    world: world
+    x: -15.79198911328479
+    y: 70.0
+    z: -530.0087057072938
+    yaw: 356.90448
+    pitch: 21.695206
+  hyba:
+    world: world
+    x: -426.9817616730779
+    y: 91.12605902323628
+    z: -552.1833930958501
+    yaw: 246.28943
+    pitch: 15.066324
+  dom:
+    world: world
+    x: -402.4310197951384
+    y: 82.0
+    z: -551.0042043895153
+    yaw: 2.6879883
+    pitch: 11.316334
+lastlocation:
+  world: world
+  x: -403.3226195244327
+  y: 83.26337944817959
+  z: -545.3000000119209
+  yaw: 352.1186
+  pitch: 19.797495
+afk: false
+money: '105.0'
+nickname: Marcolini1

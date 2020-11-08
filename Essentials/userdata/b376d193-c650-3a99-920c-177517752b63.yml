@@ -1,0 +1,20 @@
+lastAccountName: AmiPopiYT
+timestamps:
+  login: 1604748922143
+  logout: 1604748935769
+ipAddress: 31.41.181.61
+lastlocation:
+  world: world
+  x: -405.30000001192093
+  y: 71.0
+  z: -563.9348292754241
+  yaw: 210.62402
+  pitch: 49.049946
+logoutlocation:
+  world: world
+  x: 57.12321246052443
+  y: 71.0
+  z: -110.6579520436851
+  yaw: 150.38403
+  pitch: 18.90042
+godmode: false

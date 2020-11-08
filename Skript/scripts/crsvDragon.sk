@@ -1,0 +1,34 @@
+on death of ender dragon:
+	wait 8 seconds
+	drop elytra with name "&eElytra &e%attacker%" at victim
+
+on spawn:
+    if event-entity is ender dragon:
+        if {poziom} is not set:
+            set {poziom} to 0
+        if {ender} is not set:
+            set {ender} to 1
+        set {ender} to {ender}
+        add 1 to {poziom}
+        set event-entity's max health to (event-entity's health)
+        set event-entity's name to "&fEnder Dragon &d(Poziom %{poziom}%&d)"
+command /setlvl [<text>]:
+	aliases: poziom
+	permission: pp.setlvl
+	permission message: &cI'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is a mistake.
+	trigger:
+		if arg is set:
+			set {poziom} to arg 1
+			send "&7Ustawiono poziom smoka na: &d(Poziom %arg 1%&d)"
+			stop
+		else:
+			send "&7Poprawne uzycie tej komendy:&a /ustaw <poziom>"
+			stop
+
+on damage of item frame:
+	if event-world is "world_the_end":
+		cancel event
+
+on break of item frame:
+	if event-world is "world_the_end":
+		cancel event

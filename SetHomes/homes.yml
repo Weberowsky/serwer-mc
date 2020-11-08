@@ -1,0 +1,33 @@
+allNamedHomes:
+  6ebcc49f-0f27-3810-8e9f-27aa68876f6e:
+    dom:
+      world: world
+      x: -401.5
+      y: 82.0
+      z: -550.5
+      pitch: 30.597471
+      yaw: 185.0228
+    event:
+      world: world
+      x: -1859.194439721896
+      y: 82.13652882230673
+      z: -482.36246185778043
+      pitch: -11.445504
+      yaw: 2.6820984
+      desc: '1'
+  97b661d5-db75-3476-8ca5-e8b01446d6b9:
+    XD:
+      world: world
+      x: -1902.7529383259887
+      y: 75.0
+      z: -404.26177671117574
+      pitch: 9.299967
+      yaw: -33.058655
+unknownHomes:
+  ef1b22ea-8da4-3c6f-bb60-c56cd072bc3b:
+    world: world
+    x: 982.4225405676244
+    y: 64.0
+    z: -991.3613614916422
+    pitch: 22.951365
+    yaw: -92.85039

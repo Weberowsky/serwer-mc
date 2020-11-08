@@ -1,0 +1,32 @@
+lastAccountName: INFERNUS
+timestamps:
+  login: 1604771825851
+  logout: 1604772481255
+  lastteleport: 1604771521036
+ipAddress: 37.225.7.79
+lastlocation:
+  world: world
+  x: 4.8556977162878905
+  y: 67.0
+  z: 39.5966858342399
+  yaw: -7.564552
+  pitch: 37.650284
+logoutlocation:
+  world: world
+  x: 0.3667351073755425
+  y: 72.0
+  z: 0.5357059600621598
+  yaw: -90.3645
+  pitch: 3.4503007
+afk: false
+nickname: Dream
+money: '60.0'
+homes:
+  home:
+    world: world
+    x: 0.5068211838907452
+    y: 72.0
+    z: 2.870651703511359
+    yaw: -90.3645
+    pitch: 3.4503007
+godmode: false

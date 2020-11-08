@@ -1,0 +1,54 @@
+command /mysterybox [<player>]:
+    permission: mysterybox.rozdaj
+    trigger:
+        send "&7Dostales &b1 &7MysteryBox" to the argument 1
+        give 1 chest named "&b&lMysteryBox" to the argument 1
+ 
+command /mysterybox-all:
+    permission: mysterybox.rozdaj
+    trigger:
+        broadcast ""
+        broadcast "&7        &7Caly serwer otrzymal &b1 &7MysteryBox!"
+        give 1 chest named "&b&lMysteryBox" to all players
+       
+on place chest:
+    if player's tool is chest named "&b&lMysteryBox":
+        set block to air
+        broadcast "&7Gracz &f&l%player% &7otworzył &f&lMysteryBox&7 i wydropił:"
+        chance of 30%:
+            drop 3 diamond
+            broadcast "&73x &3Diaxy"
+        chance of 10%:
+            drop 1 diamond chestplate of protection 2 and unbreaking 1 named "&5&lKlata 2/1"
+            broadcast "&71x &9Klata"
+        chance of 30%:
+            drop 3 emerald
+            broadcast "&73x &aEmeraldy"
+        chance of 10%:
+            drop 1 diamond helmet of protection 2 and unbreaking 1 named "&5&lHełm 2/1"
+            broadcast "&71x &9Hełm"
+        chance of 50%:
+            drop 18 gold ingot
+            broadcast "&718x &fŻelazo"
+        chance of 10%:
+            drop 1 diamond leggins of protection 2 and unbreaking 1 named "&5&lSpodnie 2/1"
+            broadcast "&71x &9Spodnie"
+        chance of 10%:
+            drop 1 313 diamond boots protection 2 and unbreaking 1 named "&5&lButy 2/1"
+            broadcast "&71x &9Buty"            
+        chance of 20%:
+            drop 9 gold ingot
+            broadcast "&79x &fZłota"
+        chance of 5%:
+            drop 1 267 of sharpness 1 named "&5&lMiecz ostrość 1"
+            broadcast "&71x &9Miecz"
+        chance of 5%:
+            drop 1 257 of efficiency 3 and unbreaking 2 and fortune 2 named "&5&lKilof 3/2/2"
+            broadcast "&71x &9Kilof"
+command /mysterybox-help:
+    permission: mysterybox.komendy
+    trigger:
+        send "&6[]-------- &b&lMysteryBox &a&lby &a&lWeberowsky &6--------[]"
+        send "&a/mysterybox [Gracz] &7- &aWybrany gracz dostaje MysteryBoxya"
+        send "&a/mysterybox-all &7- &aCaly server otrzymuje 1 MysteryBox!"
+        send "&6[]-------- &b&lMysteryBox &c&lby &c&lWeberowsky &6--------[]"

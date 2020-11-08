@@ -1,0 +1,26 @@
+lastAccountName: Filipek_YT
+timestamps:
+  login: 1604773143241
+  lastteleport: 1604773547979
+  logout: 1604772898458
+  kits:
+    color: 1604750987183
+ipAddress: 5.173.177.25
+lastlocation:
+  world: world
+  x: -377.85107215732734
+  y: 69.0
+  z: -576.3049861419853
+  yaw: -9.126099
+  pitch: 10.349237
+nickname: Filipek_YT
+afk: false
+logoutlocation:
+  world: world
+  x: -366.1276144453483
+  y: 99.19235588873494
+  z: -555.848762160171
+  yaw: -202.275
+  pitch: 23.720547
+money: '75.0'
+godmode: false
