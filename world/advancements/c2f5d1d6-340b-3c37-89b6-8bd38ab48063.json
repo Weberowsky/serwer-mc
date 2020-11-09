@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2020-11-06 14:27:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2020-11-06 15:18:38 +0100"
+    },
+    "done": true
+  },
+  "bracken:root": {
+    "criteria": {
+      "start": "2020-11-06 14:27:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2020-11-06 14:27:55 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 2580
+}
